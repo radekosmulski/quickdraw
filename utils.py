@@ -58,7 +58,7 @@ def top_3_pred_labels(preds, classes):
         labels.append(' '.join([classes[idx] for idx in top_3[i]]))
     return labels
 
-def create_submission(test_preds, test_dl, name):
+def create_submission(test_preds, test_dl, name, classes):
     key_ids = [path.stem for path in test_dl.dataset.x.items]
     labels = top_3_pred_labels(test_preds, classes)
     sub = pd.DataFrame({'key_id': key_ids, 'word': labels})
