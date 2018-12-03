@@ -10,6 +10,8 @@ I provide instructions on how to run the code below.
 
 *You can find an earlier version of this starter pack [here](https://github.com/radekosmulski/quickdraw/tree/v1). This iteration eliminates some of the rough edges that resulted in a relatively low score and also introduces the data block API. A major change is that here I am generating drawings on the fly - this should help with experimentation.*
 
+This version of the code runs with fastai 1.0.27 and is likely incompatible with more recent releases.
+
 ## Making the first submission
 1. You need to have the FastAi library up and running. You can find installation instructions [here](https://github.com/fastai/fastai#installation).
 2. You will also need to download the competition data. The competition can be found under this [url](https://www.kaggle.com/c/quickdraw-doodle-recognition). If you do not have a Kaggle account you will need to register. There are many ways to download the data - I use the [Kaggle CLI](https://github.com/Kaggle/kaggle-api). To set it up you will need to generate an API key - all this information is available in the [Kaggle CLI repository](https://github.com/Kaggle/kaggle-api). If you do not want to set this up at this point, you can download the data from the [competition's data tab](https://www.kaggle.com/c/quickdraw-doodle-recognition/data).
